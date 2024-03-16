@@ -1,6 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
+        <AssemblyName>Kukshaus.ProjectName.Tests</AssemblyName>
+        <RootNamespace>$(AssemblyName)</RootNamespace>
+        <PackageId>$(AssemblyName)</PackageId>
+        <Product>$(AssemblyName)</Product>
+        
         <IsPackable>false</IsPackable>
         <IsTestProject>true</IsTestProject>
     </PropertyGroup>
@@ -10,10 +15,10 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="FluentAssertions" />
-      <PackageReference Include="Microsoft.NET.Test.Sdk" />
-      <PackageReference Include="Moq" />
-      <PackageReference Include="xunit" />
+        <PackageReference Include="FluentAssertions"/>
+        <PackageReference Include="Microsoft.NET.Test.Sdk"/>
+        <PackageReference Include="Moq"/>
+        <PackageReference Include="xunit"/>
     </ItemGroup>
 
 </Project>
