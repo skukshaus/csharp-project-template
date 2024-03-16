@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Sergej Kukshaus",
+  "name": "KukshausProject",
+  "identity": "kukshaus.project.1.1",
+  "shortName": "kukshaus.project",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "classifications": ["Library", "Multiple"],
+  "sourceName": "ProjectName",
+  "preferNameDirectory": false
+}
