@@ -10,5 +10,22 @@
   },
   "classifications": ["Library", "Multiple"],
   "sourceName": "ProjectName",
-  "preferNameDirectory": false
+  "preferNameDirectory": false,
+  "sources": [
+    {
+      "exclude": [
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        "_bin/**",
+        "_obj/**",
+        ".template.config/**/*",
+        "**/*.filelist",
+        "**/*.user",
+        "**/*.lock.json",
+        ".idea/**",
+        ".git/**",
+        "Test.sln"
+      ]
+    }
+  ]
 }
