@@ -1,1 +1,1 @@
-global using Kukshaus.ProjectName.Abstractions;
+global using Ksh.ProjectName.Abstractions;

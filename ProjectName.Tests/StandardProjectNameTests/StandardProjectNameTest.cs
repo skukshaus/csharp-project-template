@@ -1,4 +1,4 @@
-namespace Kukshaus.ProjectName.Tests.StandardProjectNameTests;
+namespace Ksh.ProjectName.Tests.StandardProjectNameTests;
 
 public class StandardProjectNameTest : IDisposable
 {

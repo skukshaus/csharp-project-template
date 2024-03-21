@@ -1,4 +1,4 @@
-﻿namespace Kukshaus.ProjectName;
+﻿namespace Ksh.ProjectName;
 
 public class StandardProjectName : IProjectName
 {

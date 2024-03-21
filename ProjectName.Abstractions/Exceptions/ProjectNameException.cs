@@ -1,4 +1,4 @@
-namespace Kukshaus.ProjectName.Abstractions.Exceptions;
+namespace Ksh.ProjectName.Abstractions.Exceptions;
 
 [ExcludeFromCodeCoverage]
 public class ProjectNameException : Exception

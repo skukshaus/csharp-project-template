@@ -1,4 +1,4 @@
-﻿namespace Kukshaus.ProjectName.Abstractions;
+﻿namespace Ksh.ProjectName.Abstractions;
 
 public interface IProjectName
 {
