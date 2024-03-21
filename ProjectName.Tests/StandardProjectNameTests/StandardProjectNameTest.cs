@@ -1,6 +1,6 @@
 namespace Kukshaus.ProjectName.Tests.StandardProjectNameTests;
 
-public class StandardProjectNameTest
+public class StandardProjectNameTest : IDisposable
 {
     private StandardProjectName _systemUnderTest;
 
@@ -20,5 +20,21 @@ public class StandardProjectNameTest
         using var _ = new AssertionScope();
         
         _systemUnderTest.Should().NotBeNull();
+    }
+
+    ~StandardProjectNameTest()
+    {
+        ReleaseUnmanagedResources();
+    }
+
+    private void ReleaseUnmanagedResources()
+    {
+        // TODO release managed resources here
+    }
+
+    public void Dispose()
+    {
+        ReleaseUnmanagedResources();
+        GC.SuppressFinalize(this);
     }
 }

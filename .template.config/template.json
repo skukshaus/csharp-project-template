@@ -24,7 +24,7 @@
         "**/*.lock.json",
         ".idea/**",
         ".git/**",
-        "Test.sln"
+        "CsharpProjectTemplate.sln"
       ]
     }
   ]

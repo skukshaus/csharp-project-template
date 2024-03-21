@@ -9,8 +9,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".props", ".props", "{3A73E109-AD4F-47C0-A186-F72B5967AAB6}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		directory.build.props = directory.build.props
-		directory.packages.props = directory.packages.props
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
